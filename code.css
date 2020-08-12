@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Rowdies', cursive;
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(57deg,orange, black);
+	clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+.main{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	background-color: rgba(0,0,0,0.4);
+}
+.logo{
+	width: 50%;
+	line-height: 100px;
+	display: flex;
+}
+.logo img{
+	width: 100px;
+	height: 100px;
+}
+.logo h3{
+	color: orange;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 20px;
+}
+.menu{
+	width: 50%;
+	line-height: 100px;
+	display: flex;
+
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	justify-content: space-around;
+	margin-right: 60px;
+
+}
+#home{
+	color: orange;
+}
+
+.menu a:hover{
+	color: green;
+}
+
+.mainpage{
+	width:100%;
+	display: flex;
+	justify-content: space-around;
+}
+.left{
+	width: 50%;
+	margin-left: 80px;
+	margin-top: 85px;
+}
+.left img{
+	width: 220px;
+	height: 450px;
+}
+.right{
+	width:100%;
+	color:white;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 150px;
+}
+.right h1{
+	padding: 30px;
+	font-size: 42px;
+	font-weight: bold;
+}
+.right button{
+	margin-top: 10px 0px;
+	border-radius: 4px 4px 4px 4px;
+	width: 120px;
+	height: 30px;
+	background: linear-gradient(57deg,orange, black);
+	color: white;
+	font-weight: 100%;
+	font-size: 15px;
+}
+.right button:hover{
+	background: linear-gradient(57deg,black,orange);
+}
